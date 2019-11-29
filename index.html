@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Galerie de photos</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./lightbox2-2.11.1/dist/css/lightbox.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="las la-image"></i> IMGS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" title="Lien ne menant nulle part">A propos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" title="Lien ne menant nulle part">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a href="#" class="nav-link disabled" title="Lien ne menant nulle part">S'inscrire</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link disabled" title="Lien ne menant nulle part">Se connecter</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3 text-dark"><i class="la la-camera-retro"></i> Galerie de photos</h1>       
+            <p class="lead text-dark">Quelques photos que j'ai prises au Canada entre 2016 et 2018</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Queen-E-Park.jpg" data-lightbox="canada" data-title="Vue depuis Queen Elisabeth Park, Vancouver">
+                <img src="./imgs/Queen-E-Park.jpg" alt="Vue depuis Queen Elisabeth Park" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Vue depuis Queen Elisabeth Park, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/English-Bay.jpg" data-lightbox="canada" data-title="English Bay Beach, Vancouver">
+                <img src="./imgs/English-Bay.jpg" alt="English Bay Beach" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">English Bay Beach, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/English-Bay-Statues.jpg" data-lightbox="canada" data-title="Statues, English Bay Beach, Vancouver">
+                <img src="./imgs/English-Bay-Statues.jpg" alt="Statues à English Bay" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Statues, English Bay Beach, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Kitsilano-beach.jpg" data-lightbox="canada" data-title="Kitsilano Beach, Vancouver">
+                <img src="./imgs/Kitsilano-beach.jpg" alt="Kitsilano Beach" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Kitsilano Beach, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Foreshore-trails.jpg" data-lightbox="canada" data-title="Foreshore Trail, Vancouver">
+                <img src="./imgs/Foreshore-trails.jpg" alt="Foreshore Trail" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Foreshore Trail, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/totems.jpg" data-lightbox="canada" data-title="Totems, Stanley Park, Vancouver">
+                <img src="./imgs/totems.jpg" alt="Totems à Stanley Park" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Totems, Stanley Park, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Racoon.jpg" data-lightbox="canada" data-title="Raton-laveur, Stanley Park, Vancouver">
+                <img src="./imgs/Racoon.jpg" alt="Raton-laveur à Stanley Park" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Raton-laveur, Stanley Park, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/trees.jpg" data-lightbox="canada" data-title="Les immenses arbres de Stanley Park, Vancouver">
+                <img src="./imgs/trees.jpg" alt="Arbres dans Stanley Park" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Les immenses arbres de Stanley Park, Vancouver</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Bow-falls.JPG" data-lightbox="canada" data-title="Chutes Bow Falls, Rocheuses canadiennes">
+                <img src="./imgs/Bow-falls.JPG" alt="Bow Falls" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Chutes Bow Falls, Rocheuses canadiennes</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Emerald-Lake.jpg" data-lightbox="canada" data-title="Emerald Lake, Rocheuses canadiennes">
+                <img src="./imgs/Emerald-Lake.jpg" alt="Emerald Lake" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Emerald Lake, Rocheuses canadiennes</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Snow.jpg" data-lightbox="canada" data-title="Le Saint-Laurent enneigé, Montréal">
+                <img src="./imgs/Snow.jpg" alt="Neige" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Le Saint-Laurent enneigé, Montréal</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <figure class="figure">
+              <a href="./imgs/Montreal.jpg" data-lightbox="canada" data-title="Maisons colorées, Montréal">
+                <img src="./imgs/Montreal.jpg" alt="Montréal" class="img-thumbnail figure-img">
+              </a>
+              <figcaption class="figure-caption text-center">Maisons colorées, Montréal</figcaption>
+            </figure>
+          </div>
+        </div>
+      <!--Closing container below!-->
+      </div>
+      <footer class="navbar navbar-dark bg-dark">
+        <p class="text-light mb-0 text-center">M&eacute;lusine Rey &copy; 2019</p>
+      </footer>
+      
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./lightbox2-2.11.1/dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
